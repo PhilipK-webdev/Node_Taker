@@ -16,10 +16,14 @@ router.get("/api/notes", async (req, res) => {
 
 router.post("/api/notes", async (req, res) => {
 
-    console.log("I'm here post request");
-    let note = await JSON.parse(read("./db/db.json"));
+    // console.log("I'm here post request");
+    let note = await read("./db/db.json");
+    note = JSON.parse(note);
+    console.log(note);
     const id = note.length + 1;
-    console.log(req.query);
+    console.log(id);
+    console.log(req.query.id);
+    res.send(req.query);
     // note = JSON.parse(note);
     // res.json(note);
 
