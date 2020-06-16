@@ -15,6 +15,14 @@ router.post("/api/notes", async (req, res) => {
     let data = await read("./db/db.json");
     data = JSON.parse(data);
     let idNote = data.note.length + 1;
+    data.note.filter(note => {
+
+        if (idNote === note.id) {
+            return res
+                .status(404)
+                .send({ msg: "The id is already exists" });
+        }
+    });
     const newNote = req.body;
     newNote.id = idNote;
     data.note.push(newNote);
