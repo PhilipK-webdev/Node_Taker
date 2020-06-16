@@ -1,7 +1,19 @@
-[
+{
+  "note": [
     {
-        "title": "Test Title",
-        "text": "Test text",
-        "id": 1
+      "title": "Hello",
+      "text": "Test text",
+      "id": 1
+    },
+    {
+      "title": "again",
+      "text": "Test text",
+      "id": 2
+    },
+    {
+      "title": "Try",
+      "text": "With req.body",
+      "id": 6
     }
-]
+  ]
+}
