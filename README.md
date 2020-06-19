@@ -11,7 +11,7 @@ My motivation was to create server side from scratch.
 The client side was already build with HTML files and JS file also.
 Working with express.js - library for HTTP methods(GET,POST,PUT,DELETE...) and server.
 Demonastrate the collaboration Github(client side) and Heroku(server side).
-Working for the first time with Postamn.
+Demonastrate how to work with Postamn - POST and DELETE request .
 
 ```
 
