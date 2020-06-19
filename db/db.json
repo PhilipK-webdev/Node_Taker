@@ -6,29 +6,29 @@
       "id": 1
     },
     {
-      "title": "Task 3",
+      "title": "Task 2",
       "text": "Sleep",
+      "id": 2
+    },
+    {
+      "title": "Task 3",
+      "text": "Work",
       "id": 3
     },
     {
       "title": "Task 4",
-      "text": "Work",
+      "text": "Study",
       "id": 4
     },
     {
       "title": "Task 5",
-      "text": "Study",
+      "text": "Clean",
       "id": 5
     },
     {
-      "title": "Task 5",
-      "text": "Study",
+      "title": "Task 6",
+      "text": "Cook",
       "id": 6
-    },
-    {
-      "title": "Task 5",
-      "text": "Study",
-      "id": 7
     }
   ]
 }
